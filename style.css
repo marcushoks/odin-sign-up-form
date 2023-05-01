@@ -12,7 +12,10 @@ body > div {
 
 .image-container {
   width: 40vw;
-  background-color: lightblue;
+  background-image: url(./img/chess.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .logo {

@@ -1,0 +1,16 @@
+:host {
+  --border-width: 2px;
+}
+
+input {
+  border: var(--border-width) solid #090909;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  box-shadow: 1px 1px 1px #090909;
+}
+
+input:focus,
+input:focus-visible {
+  border: var(--border-width) solid blue;
+}
